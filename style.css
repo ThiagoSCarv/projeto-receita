@@ -24,15 +24,30 @@ main{
     color: #573A37;
 }
 
+#about p + p {
+    margin-top: 12px;
+}
+
+section + section{
+    margin-top: 24px;
+}
+
 h1{
     font-size: 40px;
     line-height: 140%;
     color: #291B1A;
+    margin-bottom: 4px;
 }
+
 
 h2{
     font-size: 24px;
-    color: #291B1A
+    color: #291B1A;
+    margin-bottom: 4px;
+}
+
+ul {
+    padding-left: 25px;
 }
 
 img {
